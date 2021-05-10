@@ -32,7 +32,7 @@ There are two challenges:
 
 (b) even if one can determine the first several eigenfunctions' locations, it seems uncertain to decide which eigenfunction localizes at which place where $g$ is large.
 
-Especially, the second question is hard because the support of the first a few eigenfunctions tend to be similar when the edge length $n$ is large.
+Especially, the second question is hard because sometimes the first a few eigenvalues are close to each other.
 
 ###3.
 
