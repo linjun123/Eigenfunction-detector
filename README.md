@@ -1,6 +1,6 @@
+#Eigenfunction-detector
 
-
-###1. 
+##1. 
 The eigenfunctions of a Schrodinger equation are important objects in physics and mathematics. The eigenfunction finding algorithms are knowning to be costy when the sample size is large. On the other hand, solving a Poisson equation with potential can be reduced to solve a linear equation which is easier than the eigenfunction problem. 
 The landscape theory made it possible to find eigenfunctions by solving a Poisson equation.
 
@@ -22,7 +22,7 @@ Under certain conditions,
 the eigenfunctions are localized at the places where the landscape function $g$ tends to be large. 
 
 We consider here the simple case when the region $\Omega$ is the two dimensional box with edge length $n$.
-###2.
+##2.
 There are two challenges:
 
 (a) how to read from the landscape function to decide the places where the eigenfunctions are seems to depend on the researcher. 
@@ -31,11 +31,11 @@ There are two challenges:
 
 Especially, the second question is hard because the support of the first a few eigenfunctions tend to be similar when the edge length $n$ is large.
 
-###3.
+##3.
 
 The current implementation focuses on one dimensional case and the values of the first a few eigenvalues. See https://github.com/nehcili/Wave-Localization
 
-###4.
+##4.
 
 We first calculate the landscape function which reduces to solve a linear equation. Then we 'read' from the landscape function to decide the places of first a few eigenfunctions.
 
@@ -45,6 +45,6 @@ The 'read' part follows the previous 1d work by training a neural network. More 
 
 (b) label them from the ordering of the corresponding eigenvalues
 
-###5.
+##5.
 In the end, we have
 an "automated eigenfunctions reader" which is different from the previous method of solving an eigenvalue problem. Meanwhile, the mean square error of prediction is less than the method of predicting by the maximum of landscape function.
