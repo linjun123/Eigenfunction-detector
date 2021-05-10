@@ -56,7 +56,7 @@ The 'read' part follows the previous 1d work by training a neural network. More 
 An "automated eigenfunctions reader" which is different from the previous method of solving an eigenvalue problem. 
 
 
-Link for the data: 
+Link for the training data: 
 
 30000 Landscape functions:
 https://drive.google.com/file/d/1-2pfp5niZgoGp9qo8XhR97_lV7duRTjg/view?usp=sharing
