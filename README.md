@@ -1,6 +1,3 @@
-# Eigenfunction-detector
-
-
 
 
 ###1. 
@@ -32,7 +29,7 @@ There are two challenges:
 
 (b) even if one can determine the first several eigenfunctions' locations, it seems uncertain to decide which eigenfunction localizes at which place where $g$ is large.
 
-Especially, the second question is hard because sometimes the first a few eigenvalues are close to each other.
+Especially, the second question is hard because the support of the first a few eigenfunctions tend to be similar when the edge length $n$ is large.
 
 ###3.
 
@@ -49,17 +46,5 @@ The 'read' part follows the previous 1d work by training a neural network. More 
 (b) label them from the ordering of the corresponding eigenvalues
 
 ###5.
-
-An "automated eigenfunctions reader" which is different from the previous method of solving an eigenvalue problem. 
-
-
-Link for the training data: 
-30000 potentials on 60*60 grid:
-https://drive.google.com/file/d/1--SqecqSHLE_UIw2cEcVuyu2koryqcD7/view?usp=sharing
-
-30000 corresponding Landscape functions:
-https://drive.google.com/file/d/1-2pfp5niZgoGp9qo8XhR97_lV7duRTjg/view?usp=sharing
-
-30000 corresponding targets (eigenvalues, eigenfunctions' standard deviations and locations):
-https://drive.google.com/file/d/1Xm6ma_IPqcnsS9rmoEpesFoFTLk_G7wp/view?usp=sharing
-
+In the end, we have
+an "automated eigenfunctions reader" which is different from the previous method of solving an eigenvalue problem. Meanwhile, the mean square error of prediction is less than the method of predicting by the maximum of landscape function.
