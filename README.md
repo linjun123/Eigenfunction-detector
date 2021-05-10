@@ -9,16 +9,16 @@ The landscape theory made it possible to find eigenfunctions by solving a Poisso
 
 More precisely, consider the eigenvalue problem of Schrodinger equation 
 $$
-  \Delta u + V u = \lambda u
+  -\Delta u + V u = \lambda u
 $$
 in region $\Omega$.
-In order to find the solution $u$, we can solve a discretized problem and find the eigenvalues and eigenvectors of matrix $\Delta + V$.
+In order to find the solution $u$, we can solve a discretized problem and find the eigenvalues and eigenvectors of matrix $-\Delta + V$.
 
 In certain situations, we only need the first a few eigenfunctions and we somehow know that the eigenfunctions are localized in space. In these cases, the landscape provides a fast and efficient way for us to find these eigenfunctions' places.
 
 The landscape function $g$ is the solution of the following Poisson equation
 $$
- \Delta g + V g = 1
+ -\Delta g + V g = 1
 $$
 where $1$ denote the constant function in the region.
 Under certain conditions,
