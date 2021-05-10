@@ -2,9 +2,6 @@
 
 
 
-```
-# This is formatted as code
-```
 
 ###1. 
 The eigenfunctions of a Schrodinger equation are important objects in physics and mathematics. The eigenfunction finding algorithms are knowning to be costy when the sample size is large. On the other hand, solving a Poisson equation with potential can be reduced to solve a linear equation which is easier than the eigenfunction problem. 
