@@ -54,8 +54,10 @@ An "automated eigenfunctions reader" which is different from the previous method
 
 
 Link for the training data: 
+30000 potentials on 60*60 grid:
+https://drive.google.com/file/d/1--SqecqSHLE_UIw2cEcVuyu2koryqcD7/view?usp=sharing
 
-30000 Landscape functions:
+30000 corresponding Landscape functions:
 https://drive.google.com/file/d/1-2pfp5niZgoGp9qo8XhR97_lV7duRTjg/view?usp=sharing
 
 30000 corresponding targets (eigenvalues, eigenfunctions' standard deviations and locations):
