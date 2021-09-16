@@ -1,6 +1,7 @@
 """
 Resnetpa:
 reference: He, Kaiming, et al. "Identity mappings in deep residual networks." European conference on computer vision. Springer, Cham, 2016.
+forked from: https://gist.github.com/JefferyRPrice/c1ecc3d67068c8d9b3120475baba1d7e
 """
 
 from keras.models import Model
