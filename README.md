@@ -1,6 +1,7 @@
 For an introduction and background, see:
 https://github.com/linjun123/Eigenfunction-detector/blob/main/Introduction.ipynb
-For the notebook, see:
+
+For the implementation, see:
 https://github.com/linjun123/Eigenfunction-detector/blob/main/Eigenfunction_location_detector.ipynb
 
 To download the original training data, use the following links:
